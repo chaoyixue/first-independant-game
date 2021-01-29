@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &1229114536
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641369076319424579}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.9324818, z: 1.1921673}
+  m_Center: {x: -0, y: 0.97302437, z: -0.014101028}
+--- !u!114 &1229114535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2641369076319424579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd2d67e50e97fc40b630de49db9d540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: RobotXX
+    sentences:
+    - Hey, You finally got here
+    - I'm here to guide you through you long long trip
+    - During this period, you need to focus, to discover where is the truth, the real
+      truth
+  myPlayer: {fileID: 0}
+--- !u!1001 &6023653988884925754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8588459379381067129, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_Name
+      value: RobotNPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.7822709
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.8073087
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713878570357206890, guid: a7faa2d06e22c674c97144a6da1edef9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a7faa2d06e22c674c97144a6da1edef9, type: 3}
+--- !u!1 &2641369076319424579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8588459379381067129, guid: a7faa2d06e22c674c97144a6da1edef9,
+    type: 3}
+  m_PrefabInstance: {fileID: 6023653988884925754}
+  m_PrefabAsset: {fileID: 0}

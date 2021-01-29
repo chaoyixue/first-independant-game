@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GrenadeBody
+  - Ladders
+  - skeleton
+  - bomb
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Plyer
+  - Enemies
+  - ladders
+  - PostProcess
+  - NotColliderWithPlayer
+  - Boss
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: HealthBar
+    uniqueID: 191322933
+    locked: 0
+  - name: TextBox
+    uniqueID: 1727228085
+    locked: 0
+  - name: pause
+    uniqueID: 4115092631
+    locked: 0
